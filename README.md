@@ -42,7 +42,7 @@ Account abstraction allows users to interact with Ethereum using smart contract 
 ### Clone the repository:
 
 ````bash
-git clone https://github.com/eth-infinitism/account-abstraction.git
+git clone https://github.com/0xseree/account-abstraction.git
 cd account-abstraction
 yarn install
 ````
@@ -73,7 +73,7 @@ The EntryPoint is deployed by using
 hardhat deploy --network {net}
 ```
 
-[EntryPoint v0.8](https://github.com/eth-infinitism/account-abstraction/releases/latest) is always deployed at address `0x4337084d9e255ff0702461cf8895ce9e3b5ff108`
+[EntryPoint v0.8](https://github.com/0xseree/account-abstraction/releases/latest) is always deployed at address `0x4337084d9e255ff0702461cf8895ce9e3b5ff108`
 
 This repository also includes a number of audited base classes and utilities that can simplify the development of AA related contracts.
 
